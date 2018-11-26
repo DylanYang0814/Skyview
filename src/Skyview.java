@@ -1,7 +1,7 @@
 public class Skyview {
 
     private double[][] view;
-    
+
     public Skyview(int numRows, int numCols, double[] scanned) {
         int num = 0;
         double[][] view = new double[numRows][numRows];
